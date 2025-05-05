@@ -6,13 +6,15 @@
 @endsection
 
 @section('content')
+    <main class="nk-pages">
+        <section class="section bg-light section-about">
     <div class="container">
         <h1>Список кошельков для отправки SUR</h1>
 
         <button id="connectWalletBtn" class="btn btn-success mb-3">Подключить кошелек</button>
         <span id="connectedWallet" style="margin-left:10px; font-weight:bold;"></span>
 
-        <table class="table table-bordered">
+        <table class="table table-s1 table-token">
             <thead>
             <tr>
                 <th>Адрес кошелька</th>
@@ -58,6 +60,8 @@
             </div>
         </div>
     </div>
+        </section>
+    </main>
 @endsection
 
 @section('scripts')

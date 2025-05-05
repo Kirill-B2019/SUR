@@ -32,7 +32,7 @@
                                 <li class="menu-item"><a class="menu-link nav-link" href="{{route('home')}}#arhitech">{{__('Структура')}}</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="{{route('home')}}#features">{{__('О токене SUR')}}</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="{{route('home')}}#roadmap">{{__('Дорожная карта')}}</a></li>
-                                <li class="menu-item"><a class="menu-link nav-link" href="{{route('home')}}#wp"><strong>{{__('White Paper')}}</strong></a></li>
+                                <li class="menu-item"><a class="menu-link nav-link" href="{{asset('assets/docs/WhitePaperSUR.pdf')}}" target="_blank"><strong>{{__('White Paper')}}</strong></a></li>
                             </ul>
                             <ul class="menu-btns">
                                 <li><a href="https://dyor.io/ru/token/EQD_oJx8gODY2DTkhWQFbtm48CJLgynOdhYzD12fKaj7dx9y" class="btn btn-md btn-auto btn-grad no-change btn-free-buy"><span>{{__('Купить SUR')}}</span></a></li>
@@ -68,8 +68,8 @@
                                                 <a class="btn btn-grad btn-free pt-5 pb-5" href="{{route('gift')}}">{{__('Получить ')}}7.54 SUR {{' бесплатно сейчас'}}</a>
                                             </div>
                                             <ul class="cpn-links">
-                                                <li><a class="link" href="#"><em class="link-icon far fa-lightbulb"></em><span>{{__('Купить еще')}}</span></a></li>
-                                                <li><a class="link" href="#"><em class="link-icon fas fa-file-alt"></em><span>White Paper</span></a></li>
+                                                <li><a class="link" href="https://dyor.io/ru/token/EQD_oJx8gODY2DTkhWQFbtm48CJLgynOdhYzD12fKaj7dx9y"><em class="link-icon far fa-lightbulb"></em><span>{{__('Купить еще')}}</span></a></li>
+                                                <li><a class="link" href="{{asset('assets/docs/WhitePaperSUR.pdf')}}" target="_blank"><em class="link-icon fas fa-file-alt"></em><span>White Paper</span></a></li>
                                             </ul>
                                         </div>
                                     </div>

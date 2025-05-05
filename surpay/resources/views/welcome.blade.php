@@ -487,7 +487,7 @@
                                             <h4 class="title title-md">{{__('Больше информации - ')}} Whitepaper</h4>
                                             <p>{{__('Наша цель — создать инновационную товарно-ресурсную логистическую платформу, которая обеспечит эффективное и прозрачное кооперативное взаимодействие между всеми участниками цепочки поставок. ')}}</p>
                                             <ul class="btn-grp gutter-30px gutter-vr-20px">
-                                                <li><a href="#" class="btn btn-grad">{{__('Читать Whitepaper')}}</a></li>
+                                                <li><a href="{{asset('assets/docs/WhitePaperSUR.pdf')}}" target="_blank" class="btn btn-grad">{{__('Читать Whitepaper')}}</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- .col -->
