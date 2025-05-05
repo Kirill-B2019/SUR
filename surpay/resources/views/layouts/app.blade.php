@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="{{asset('images/favicon.png')}}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Site Title  -->
     <title>{{__('Товарно-ресурсная логистическая платформа кооперативного взаимодействия')}}</title>
     <!-- Bundle and Base CSS -->
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- Extra CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/theme.css')}}">
+
 </head>
 
 <body class="nk-body body-wider bg-light mode-onepage">

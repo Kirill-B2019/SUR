@@ -1,15 +1,7 @@
 {
-    "name": "SUR Token Sender",
-    "description": "Приложение для отправки SUR токенов",
-    "icons": [
-        {
-            "src": "/favicon.ico",
-            "sizes": "64x64",
-            "type": "image/x-icon"
-        }
-    ],
-    "start_url": "/wallets",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "name": "SurPay",
+    "iconUrl": "http://127.0.0.1:8000/img/icon.png",
+    "termsOfServiceUrl": "http://127.0.0.1:8000/terms",
+    "privacyPolicyUrl": "http://127.0.0.1:8000/privacy",
+    "redirectUrl": "http://127.0.0.1:8000"
 }

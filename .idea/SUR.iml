@@ -122,12 +122,18 @@
       <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/_laravel_idea" />
       <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/barryvdh/laravel-debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/php-debugbar/php-debugbar" />
-      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/tonephp/tonephp" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/maatwebsite/excel" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/surpay/vendor/phpoffice/phpspreadsheet" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@tonclient/core" level="application" />
     <orderEntry type="library" name="tonweb" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="@tonkeeper/tonconnect-ui" level="application" />
   </component>
 </module>

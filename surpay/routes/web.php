@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\GiftController;
+use App\Http\Controllers\SurTokenController;
 use App\Http\Controllers\WalletController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
@@ -18,5 +19,6 @@ Route::middleware('web')->group(function () {
     Route::post('/wallets/send-token/{id}', [WalletController::class, 'sendToken'])->name('wallets.sendToken');
 });
 
+Route::get('/wallets/export', [SurTokenController::class, 'exportToExcel'])->name('wallets.export');
 
 
