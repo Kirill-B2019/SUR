@@ -1,0 +1,7 @@
+{
+    "name": "SurPay",
+    "iconUrl": "http://127.0.0.1:8000/img/icon.png",
+    "termsOfServiceUrl": "http://127.0.0.1:8000/terms",
+    "privacyPolicyUrl": "http://127.0.0.1:8000/privacy",
+    "redirectUrl": "http://127.0.0.1:8000"
+}

@@ -1,0 +1,59 @@
+/*!
+Template :	ICOCrypto @by KB
+Theme	 :  Default
+* Version	 :	0.1.0
+* Updated	 :	25/04/202225
+*/
+/*! WRITE YOUR CUSTOM STYLE **/
+.title-up {
+    font-size: 3.125rem;
+    text-transform: uppercase;}
+.tc-light h2, .tc-light h3, .tc-light h4, .tc-light h5, .tc-light h6, .tc-light .h1, .tc-light .h2, .tc-light .h3, .tc-light .h4, .tc-light .h5, .tc-light .h6 {
+    color: #fecd45;}
+.btn-free {
+        font-size: 1.5rem;
+        text-transform: uppercase;}
+.btn-free-buy {
+    font-size: 1.3rem;
+    text-transform: uppercase;}
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .btn-free  {
+        font-size: 1.1rem;
+    }
+}
+
+/* For screens between 600px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    .btn-free  {
+        font-size: 1.2rem;
+    }
+}
+
+/* For screens larger than 900px */
+@media (min-width: 901px) {
+    .btn-free  {
+        font-size: 1.6rem;
+    }
+}
+
+.preloader-alt:after, .preloader-alt:before { background: rgb(48, 84, 120); }
+.bg-theme-grad { background-image: linear-gradient(to right, #305478 0%, rgba(48, 84, 120, 0.48) 100%) !important; }
+.tc-base-white, .tc-light, .tc-light a:not(.btn):not([class*="link-"]) { color: #fecd45; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color: #305478; font-weight: 500; font-family: "Roboto", sans-serif; line-height: 1.45; margin-bottom: 0.5rem; }
+
+.section-head .h2 .title:before { position: absolute; left: 50%; top: 50%; content: attr(title); font-family: "Roboto", sans-serif; line-height: .9; text-transform: uppercase; white-space: nowrap; color: #305478; transform: translate(-50%, -50%); opacity: 0.06; }
+.bg-theme { background-color: #305478FF !important; }
+.bg-theme-dark { background-color: rgb(35, 62, 88) !important; }
+.table tr { border-bottom: 1px solid rgba(255, 255, 255, 0.79); }
+.table-head { font-weight: 300; color: rgba(255, 255, 255, 1); }
+.token-alocate-graph span { color: #fecd45; }
+.smaller{ font-size: 0.7rem; }
+
+.align-items-left li {
+    text-align: left;
+    width: 100%;
+}
+
+.a-gift {color: rgba(255, 255, 255, 0.79) !important;}
