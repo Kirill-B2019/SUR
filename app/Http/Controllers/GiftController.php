@@ -21,6 +21,7 @@ class GiftController extends Controller
         SurToken::create([
             'amount' => '7.54',
             'wallet' => $request->wallet,
+            'token' => "SUR", // или нужное значение
             'status' => 'New',
             'is_bonus' => true,
         ]);
