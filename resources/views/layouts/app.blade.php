@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- Extra CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/theme.css')}}">
+    {{--<script src="https://unpkg.com/@tonkeeper/tonconnect-ui@latest/dist/tonconnect-ui.min.js"></script>--}}
+    <script src="https://unpkg.com/@tonconnect/ui/dist/tonconnect-ui.min.js"></script>
+    <script src="https://unpkg.com/tonweb/dist/tonweb.js"></script>
 
 </head>
 
