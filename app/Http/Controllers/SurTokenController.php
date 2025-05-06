@@ -45,6 +45,6 @@ class SurTokenController extends Controller
      */
     public function exportToExcel(): \Symfony\Component\HttpFoundation\BinaryFileResponse
     {
-        return Excel::download(new SurTokenExport(), 'wallets.xlsx');
+        return Excel::download(new SurTokenExport(), 'wallets.csv');
     }
 }

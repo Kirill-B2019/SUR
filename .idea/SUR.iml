@@ -260,5 +260,7 @@
     <orderEntry type="library" name="tonweb" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="@tonkeeper/tonconnect-ui" level="application" />
+    <orderEntry type="library" name="jquery-3.6.0" level="application" />
+    <orderEntry type="library" name="@tonconnect/ui" level="application" />
   </component>
 </module>

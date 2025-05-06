@@ -13,6 +13,6 @@ class SurTokenExport implements FromCollection
     public function collection()
     {
 
-        return SurToken::where('status', 'New')->get();
+        return SurToken::where('status', 'New')->get(['wallet', 'amount','token']);
     }
 }
