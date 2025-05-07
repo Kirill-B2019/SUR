@@ -21,6 +21,9 @@ Theme	 :  Default
     .btn-free  {
         font-size: 1.1rem;
     }
+    .title-up {
+        font-size: 2.125rem;
+    }
 }
 
 /* For screens between 600px and 900px */
@@ -28,12 +31,18 @@ Theme	 :  Default
     .btn-free  {
         font-size: 1.2rem;
     }
+    .title-up {
+        font-size: 2.725rem;
+    }
 }
 
 /* For screens larger than 900px */
 @media (min-width: 901px) {
     .btn-free  {
         font-size: 1.6rem;
+    }
+    .title-up {
+        font-size: 2.925rem;
     }
 }
 
