@@ -410,7 +410,7 @@
                                     <div class="token-countdown countdown" data-date="2023/04/27"></div>
                                     <div class="progress-wrap progress-wrap-point">
                                         <span class="progress-info">{{__('Обьем этапа ')}} <span>603 870 000</span> SUR</span>
-                                        <span class="progress-info">{{__('Размещено ')}} <span>59 366 717 </span>SUR (16%)</span>
+                                        <span class="progress-info">{{__('Размещено ')}} <span>59 366 777.32 </span>SUR (16%)</span>
                                         <div class="progress-bar">
                                             <div class="progress-percent bg-grad" data-percent="16"></div>
 
@@ -618,7 +618,7 @@
             <div class="container">
                 <!-- Block @s -->
                 <div class="nk-block block-partners">
-                    <h6 class="title title-xs title-light text-center">{{__('В партнерстве с')}}</h6>
+                    <h6 class="title title-xs title-light text-center">{{__('технологии')}}</h6>
                     <ul class="partner-list flex-lg-nowrap">
                         <li class="partner-logo"><img src="{{asset('images/partners/a.png')}}" alt="partner"></li>
                         <li class="partner-logo"><img src="{{asset('images/partners/b.png')}}" alt="partner"></li>
