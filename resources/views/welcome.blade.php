@@ -614,7 +614,7 @@
         </section>
 
         <!-- // -->
-        <section class="section section-m section-partners bg-light" id="partners">
+      {{--  <section class="section section-m section-partners bg-light" id="partners">
             <div class="container">
                 <!-- Block @s -->
                 <div class="nk-block block-partners">
@@ -628,6 +628,6 @@
                 </div>
                 <!-- Block @e -->
             </div>
-        </section>
+        </section>--}}
     </main>
 @endsection('content')

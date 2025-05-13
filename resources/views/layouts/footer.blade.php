@@ -55,7 +55,7 @@
                                     <li>
                                         <em class="contact-icon fas fa-paper-plane"></em>
                                         <div class="contact-text">
-                                            <span>{{__('Присоединяйтесь в Telegram')}}</span>
+                                            <span>{{__('Присоединяйтесь в ')}}<a href="https://t.me/SUR_system" target="_blank">{{__('Telegram')}}</a></span>
                                         </div>
                                     </li>
                                 </ul>
