@@ -579,7 +579,7 @@
                 <!-- Block @e -->
             </div>
         </section>
-        <!-- // -->
+        <!-- // Команда-->
         <section class="section section-team bg-light" id="team">
             <div class="container">
                 <!-- Block @s -->
@@ -613,21 +613,180 @@
             </div>
         </section>
 
-        <!-- // -->
-      {{--  <section class="section section-m section-partners bg-light" id="partners">
+        <!-- // FAQ-->
+        <section class="section section-faq bg-white" id="faq">
             <div class="container">
+                <!-- Section Head @s -->
+                <div class="section-head text-center wide-auto">
+                    <h2 class="title">{{__('Частые вопросы')}}</h2>
+                    <p>{{__('Здесь вы найдете краткие и понятные ответы, которые помогут разобраться в особенностях работы платформы, возможностях токена SUR и правилах взаимодействия с сервисом, не обращаясь в службу поддержки.')}}</p>
+                </div><!-- .section-head @e -->
                 <!-- Block @s -->
-                <div class="nk-block block-partners">
-                    <h6 class="title title-xs title-light text-center">{{__('технологии')}}</h6>
-                    <ul class="partner-list flex-lg-nowrap">
-                        <li class="partner-logo"><img src="{{asset('images/partners/a.png')}}" alt="partner"></li>
-                        <li class="partner-logo"><img src="{{asset('images/partners/b.png')}}" alt="partner"></li>
-                        <li class="partner-logo"><img src="{{asset('images/partners/c.png')}}" alt="partner"></li>
-
-                    </ul>
-                </div>
-                <!-- Block @e -->
+                <div class="nk-block block-faq">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="general-questions">
+                                    <div class="accordion accordion-s1 accordion-faq" id="faq-1">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-1-1">
+                                                {{__('Что такое токен SUR?')}}<span class="accordion-icon"></span></h5>
+                                            <div id="faq-1-1" class="collapse show" data-bs-parent="#faq-1">
+                                                <div class="accordion-content">
+                                                    <p>{{__('Токен SUR - это цифровой актив, встроенный в экономическую модель инновационной товарно-ресурсной логистической платформы. Он используется как расчетная единица между участниками, инструмент мотивации, средство управления (DAO) и финансирования развития платформы.')}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-1-2">
+                                                {{__('Для чего используется токен SUR на платформе?')}}<span class="accordion-icon"></span></h5>
+                                            <div id="faq-1-2" class="collapse" data-bs-parent="#faq-1">
+                                                <div class="accordion-content">
+                                                    <p>{{__('Токен SUR применяется для оплаты товаров, услуг и логистических операций, начисления бонусов за активность, участия в голосованиях по развитию платформы и получения пассивного дохода через стейкинг.')}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-1-3">
+                                                {{__('Как можно получить токены SUR?')}}<span class="accordion-icon"></span></h5>
+                                            <div id="faq-1-3" class="collapse" data-bs-parent="#faq-1">
+                                                <div class="accordion-content">
+                                                    <p>{{__('Токены SUR можно приобрести на этапе публичного размещения (ICO/IDO), получить в бонусной программе платформы, а также заработать, участвуя в операциях платформы, стейкинге или выполняя определённые командные задачи.')}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-1-4">{{__('Как обеспечивается прозрачность и безопасность операций с SUR?')}}<span class="accordion-icon"></span></h5>
+                                            <div id="faq-1-4" class="collapse" data-bs-parent="#faq-1">
+                                                <div class="accordion-content">
+                                                    <p>{{__('Все операции с SUR фиксируются в открытой блокчейн-системе, что гарантирует прозрачность, возможность аудита и автоматический контроль исполнения обязательств через смарт-контракты.')}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-1-5">{{__('Какие преимущества получают активные участники экосистемы?')}}<span class="accordion-icon"></span></h5>
+                                            <div id="faq-1-5" class="collapse" data-bs-parent="#faq-1">
+                                                <div class="accordion-content">
+                                                    <p>{{__('Активные участники получают бонусы в SUR, доступ к дополнительным функциям, возможность пассивного дохода через стейкинг и право голоса в управлении платформой, что создает стимулы для долгосрочного участия и развития сообщества.')}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="ico-questions">
+                                    <div class="accordion accordion-s1 accordion-faq" id="faq-2">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-2-1">Which of us ever undertakes laborious?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-2-1" class="collapse show" data-bs-parent="#faq-2">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-2-2">Who do not know how to pursue rationally?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-2-2" class="collapse" data-bs-parent="#faq-2">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-2-3">Their separate existence is a myth?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-2-3" class="collapse" data-bs-parent="#faq-2">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-2-4">Pityful a rethoric question ran over her cheek?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-2-4" class="collapse" data-bs-parent="#faq-2">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tokens-sales">
+                                    <div class="accordion accordion-s1 accordion-faq" id="faq-3">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-3-1">When she reached the first hills?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-3-1" class="collapse show" data-bs-parent="#faq-3">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-3-2">Big Oxmox advised her not to do?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-3-2" class="collapse" data-bs-parent="#faq-3">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-3-3">Which roasted parts of sentences fly into your mouth?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-3-3" class="collapse" data-bs-parent="#faq-3">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-3-4">Vokalia and Consonantia, there live?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-3-4" class="collapse" data-bs-parent="#faq-3">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="clients-releted">
+                                    <div class="accordion accordion-s1 accordion-faq" id="faq-4">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-4-1">How do I benefit from the ICO Token?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-4-1" class="collapse show" data-bs-parent="#faq-4">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-4-2">Pityful a rethoric question ran over her cheek?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-4-2" class="collapse" data-bs-parent="#faq-4">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-4-3">Vokalia and Consonantia, there live?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-4-3" class="collapse" data-bs-parent="#faq-4">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-title accordion-title-sm collapsed" data-bs-toggle="collapse" data-bs-target="#faq-4-4">Who do not know how to pursue rationally?<span class="accordion-icon"></span></h5>
+                                            <div id="faq-4-4" class="collapse" data-bs-parent="#faq-4">
+                                                <div class="accordion-content">
+                                                    <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .block @e -->
             </div>
-        </section>--}}
+        </section>
+        <!-- // -->
     </main>
 @endsection('content')
